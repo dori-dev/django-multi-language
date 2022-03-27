@@ -38,9 +38,29 @@ python manage.py runserver
 
 ## Open On Browser
 
-Automatic Language [127.0.0.1:8000](https://127.0.0.1:8000)
-English Language [127.0.0.1:8000/en](https://127.0.0.1:8000/en)
-Persian Language [127.0.0.1:8000/fa](https://127.0.0.1:8000/fa)
-Turkish Language [127.0.0.1:8000/tr](https://127.0.0.1:8000/tr)
-Spanish Language [127.0.0.1:8000/es](https://127.0.0.1:8000/es)
-German Language [127.0.0.1:8000/he](https://127.0.0.1:8000/he)
+Automatic Language
+[127.0.0.1:8000](https://127.0.0.1:8000)
+
+English Language
+[127.0.0.1:8000/en](https://127.0.0.1:8000/en)
+
+Persian Language
+[127.0.0.1:8000/fa](https://127.0.0.1:8000/fa)
+
+Turkish Language
+[127.0.0.1:8000/tr](https://127.0.0.1:8000/tr)
+
+Spanish Language
+[127.0.0.1:8000/es](https://127.0.0.1:8000/es)
+
+German Language
+[127.0.0.1:8000/he](https://127.0.0.1:8000/he)
+
+
+
+#
+## Links
+
+Download Source Code: [Click Here](https://github.com/dori-dev/django-multi-language/archive/refs/heads/master.zip)
+
+My Github Account: [Click Here](https://github.com/dori-dev/)
