@@ -1,17 +1,31 @@
-{% load i18n %}
-{% get_current_language_bidi as LANGUAGE_BIDI %}
+{% load i18n %} {% get_current_language_bidi as LANGUAGE_BIDI %}
 <!DOCTYPE html>
 <html lang="en" dir="{% if LANGUAGE_BIDI %}rtl{% else %}ltr{% endif %}">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% trans 'User Profile' %}</title>
-</head>
-<body>
+  </head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-size: larger;
+    }
+    .warning {
+      color: #d9534f;
+    }
+    hr {
+      width: 60%;
+      margin-bottom: 50px;
+    }
+  </style>
+  <body>
     <h1>{% trans 'Your Profile' %}</h1>
     <h3>{% trans 'Here you manage your account' %}</h3>
+    <hr>
     <p>{% trans 'Confirm your email to get started...' %}</p>
-    <p>{% trans 'Also look at the spam folder!' %}</p>
-</body>
+    <p class="warning">{% trans 'Also look at the spam folder!' %}</p>
+  </body>
 </html>
