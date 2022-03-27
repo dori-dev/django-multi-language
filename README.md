@@ -7,7 +7,7 @@ Create multi language website using django.
 ## Download Source Code
 
 ```
-https://github.com/dori-dev/django-multi-language.git
+git clone https://github.com/dori-dev/django-multi-language.git
 cd django-multi-language
 ```
 
@@ -54,7 +54,7 @@ Spanish Language
 [127.0.0.1:8000/es](http://127.0.0.1:8000/es)
 
 German Language
-[127.0.0.1:8000/he](http://127.0.0.1:8000/he)
+[127.0.0.1:8000/de](http://127.0.0.1:8000/de)
 
 
 
