@@ -1,4 +1,46 @@
 # Django Multi Language
+
 Create multi language website using django.
 
-install gettext
+# How To Use
+
+## Download Source Code
+
+```
+https://github.com/dori-dev/django-multi-language.git
+cd django-multi-language
+```
+
+## Build Virtual Environment
+
+```
+python3 -m venv env
+source env/bin/activate
+```
+
+## Install Project Requirements
+
+```
+pip install -r requirements.txt
+```
+
+## Apply Migrations
+
+```
+python manage.py migrate
+```
+
+## Run Server
+
+```
+python manage.py runserver
+```
+
+## Open On Browser
+
+Automatic Language [127.0.0.1:8000](https://127.0.0.1:8000)
+English Language [127.0.0.1:8000/en](https://127.0.0.1:8000/en)
+Persian Language [127.0.0.1:8000/fa](https://127.0.0.1:8000/fa)
+Turkish Language [127.0.0.1:8000/tr](https://127.0.0.1:8000/tr)
+Spanish Language [127.0.0.1:8000/es](https://127.0.0.1:8000/es)
+German Language [127.0.0.1:8000/he](https://127.0.0.1:8000/he)
