@@ -20,20 +20,20 @@ msgstr ""
 
 #: user_profile/templates/index.html:8
 msgid "User Profile"
-msgstr ""
+msgstr "Benutzerprofil"
 
 #: user_profile/templates/index.html:11
 msgid "Your Profile"
-msgstr ""
+msgstr "Dein Profil"
 
 #: user_profile/templates/index.html:12
 msgid "Here you manage your account"
-msgstr ""
+msgstr "Hier verwalten Sie Ihr Konto"
 
 #: user_profile/templates/index.html:13
 msgid "Confirm your email to get started..."
-msgstr ""
+msgstr "Bestätigen Sie Ihre E-Mail, um loszulegen..."
 
 #: user_profile/templates/index.html:14
 msgid "Also look at the spam folder!"
-msgstr ""
+msgstr "Schauen Sie auch in den Spam-Ordner!"
